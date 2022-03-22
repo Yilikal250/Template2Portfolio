@@ -495,6 +495,9 @@ footer p {
   margin-top: 120px;
   font-family: InaiMathi, sans-serif;
   margin-bottom: 73px;
+  line-height: 44px;
+  padding: 0;
+  margin-right: 0;
 }
 
 footer form{
@@ -509,6 +512,7 @@ form > *{
   margin-bottom: 20px;
   padding: 14px;
   margin-left: 24px;
+  margin-right: 24px;
 }
 form div {
   text-align: center;
@@ -541,5 +545,12 @@ textarea{
   width: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  color: #505F79;
+}
+
+.footer-line{
+  height: 5px;
+  width: 134px;
+  background-color: black;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
