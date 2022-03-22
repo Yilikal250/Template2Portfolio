@@ -482,3 +482,64 @@ li {
 .posting {
   padding-left: 10px;
 }
+
+footer{
+  flex-direction: column;
+}
+
+footer p {
+  color: #172B4D;
+  font-style: bold;
+  font-size:32px;
+  text-align: center;
+  margin-top: 120px;
+  font-family: InaiMathi, sans-serif;
+  margin-bottom: 73px;
+}
+
+footer form{
+  display: flex;
+  flex-direction: column;
+}
+
+form > *{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 20px;
+  padding: 14px;
+  margin-left: 24px;
+}
+form div {
+  text-align: center;
+}
+.footer-button{
+  background: #ff6b00;
+  width: 161px;
+  height: 48px;
+  margin: 12px 0;
+  border: 1px solid #8993a4;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+}
+
+textarea{
+  height: 114px;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons li img{
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #505F79;
+}
