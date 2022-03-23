@@ -4,7 +4,12 @@
 
 ## Description the project:-
 
-> Personal portfolio contact form
+> On the page dawnbelow write your 
+> Full Name on the Name area
+> Email Address on the email box
+> And other informations on the Enter text area part.
+> if you think you have written the corect information please press 
+> the Get in touch button then you will get an email containing your information. 
 
 Built With
 
