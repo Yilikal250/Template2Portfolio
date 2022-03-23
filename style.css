@@ -269,15 +269,16 @@ li {
   background-size: contain;
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
+  margin-top: 105px;
   justify-content: center;
   margin-left: 10px;
+  margin-bottom: 0%;
 }
 
 .post h1 {
   width: 295px;
   height: 81px;
-  padding-top: 75px;
+  padding-top: 45px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -298,19 +299,20 @@ li {
 }
 
 .post-btn {
-  padding-left: 25px;
+  padding-left: 17px;
   list-style-type: none;
 }
 
 .post-btn li {
   display: inline-block;
   list-style-type: none;
+  margin: 4px;
 }
 
 .post1-btn li {
   display: inline-block;
   list-style-type: none;
-  padding-left: 13px;
+  padding-left: 8px;
 }
 
 .post1-btn button {
@@ -334,7 +336,7 @@ li {
 .postbtn2 {
   background: #ff6b00;
   width: 100%;
-  height: 60px;
+  height: 50px;
   margin-top: 17px;
   border: 1px solid #8993a4;
   font-family: Inter, sans-serif;
@@ -344,6 +346,8 @@ li {
   line-height: 30px;
   color: white;
   list-style-type: none;
+  margin-right: 100px;
+  padding-top: 10px;
 }
 
 .about {
@@ -393,13 +397,13 @@ li {
   margin-left: 15px;
 }
 
-#post2btn {
+.post-aboutme button {
   background: #ff6b00;
   width: 161px;
   height: 48px;
   left: 0;
   top: 259px;
-  margin: 12px 0;
+  margin: 12px 27px;
   border: 1px solid #8993a4;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -407,7 +411,6 @@ li {
   font-size: 17px;
   line-height: 24px;
   color: white;
-  margin-left: 25px;
 }
 
 #line2 {
@@ -483,14 +486,14 @@ li {
   padding-left: 10px;
 }
 
-footer{
+footer {
   flex-direction: column;
 }
 
-footer p {
-  color: #172B4D;
+.foot {
+  color: #172b4d;
   font-style: bold;
-  font-size:32px;
+  font-size: 32px;
   text-align: center;
   margin-top: 120px;
   font-family: InaiMathi, sans-serif;
@@ -500,12 +503,12 @@ footer p {
   margin-right: 0;
 }
 
-footer form{
+footer form {
   display: flex;
   flex-direction: column;
 }
 
-form > *{
+form > * {
   border-top: none;
   border-left: none;
   border-right: none;
@@ -514,10 +517,12 @@ form > *{
   margin-left: 24px;
   margin-right: 24px;
 }
+
 form div {
   text-align: center;
 }
-.footer-button{
+
+.footer-button {
   background: #ff6b00;
   width: 161px;
   height: 48px;
@@ -531,23 +536,23 @@ form div {
   color: white;
 }
 
-textarea{
+textarea {
   height: 114px;
 }
 
-.footer-icons{
+.footer-icons {
   display: flex;
   justify-content: center;
 }
 
-.footer-icons li img{
+.footer-icons li img {
   height: 25px;
   width: 25px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.footer-line{
+.footer-line {
   height: 5px;
   width: 134px;
   background-color: black;
