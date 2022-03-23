@@ -559,3 +559,13 @@ textarea {
   margin-bottom: 30px;
   border-radius: 10px;
 }
+
+.footer-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.footer-button:active {
+  background-color: yellow;
+  color: black;
+}
